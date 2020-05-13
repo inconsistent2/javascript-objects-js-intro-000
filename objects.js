@@ -1,2 +1,3 @@
-function
-Object.assign({},playlist,{artist: song})
+function(artist,song){
+Object.assign({},playlist,{[artist]:[song]})
+}
